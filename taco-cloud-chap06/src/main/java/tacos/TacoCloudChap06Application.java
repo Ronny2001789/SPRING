@@ -4,14 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TacoCloudChap021Application {
+public class TacoCloudChap06Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TacoCloudChap021Application.class, args);
+		SpringApplication.run(TacoCloudChap06Application.class, args);
 	}
 
 }
-
-
-//http://localhost:8080/h2-console
-//jdbc:h2:mem:testdb
