@@ -31,7 +31,7 @@ import tacos.data.UserRepository;
 @SessionAttributes("order")
 public class DesignTacoController {
 
-  private final IngredientRepository ingredientRepo;
+  private final IngredientRepositoringredientRepo;y
 
   private TacoRepository tacoRepo;
 
