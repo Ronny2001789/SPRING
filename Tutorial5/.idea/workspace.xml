@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a756be04-cfd1-407b-8b49-7eb2ecbf5e96" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Tutorial5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dockerBase/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgrestbrewery/KbeRestBrewery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgrestbrewery/bootstrap/BeerLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgrestbrewery/domain/Beer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgrestbrewery/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgrestbrewery/repositories/BeerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgrestbrewery/services/BeerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgrestbrewery/services/BeerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgrestbrewery/services/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgrestbrewery/services/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgrestbrewery/web/controller/BeerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgrestbrewery/web/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgrestbrewery/web/controller/MvcExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgrestbrewery/web/controller/NotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgrestbrewery/web/mappers/BeerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgrestbrewery/web/mappers/CustomerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgrestbrewery/web/mappers/DateMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgrestbrewery/web/model/BeerDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgrestbrewery/web/model/BeerPagedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgrestbrewery/web/model/BeerStyleEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgrestbrewery/web/model/CustomerDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgrestbrewery/KbeRestBreweryApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgrestbrewery/web/controller/BeerControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/KbeRestBrewery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/bootstrap/BeerLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/domain/Beer$BeerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/domain/Beer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/domain/Customer$CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/domain/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/repositories/BeerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/services/BeerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/services/BeerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/services/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/services/CustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/web/controller/BeerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/web/controller/CustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/web/controller/MvcExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/web/controller/NotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/web/mappers/BeerMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/web/mappers/BeerMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/web/mappers/CustomerMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/web/mappers/CustomerMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/web/mappers/DateMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/web/model/BeerDto$BeerDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/web/model/BeerDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/web/model/BeerPagedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/web/model/BeerStyleEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/web/model/CustomerDto$CustomerDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgrestbrewery/web/model/CustomerDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/guru/springframework/sfgrestbrewery/web/mappers/BeerMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/guru/springframework/sfgrestbrewery/web/mappers/CustomerMapperImpl.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "UlrichSnyman"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/UlrichSnyman/Spring.git",
+    "accountId": "3ffa3f82-6757-4dcb-a11a-b7ace47eb270"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="35yZhvRvH071GZJuZeYhttjHKFf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.KbeRestBrewery.executor": "Run",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ulric/OneDrive/Documents/Code College/Web bootcamp/Spring/Tutorial5",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ulric\OneDrive\Documents\Code College\Web bootcamp\Spring\Tutorial5\src\main" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Tutorial5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Tutorial5" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Tutorial5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="Tutorial5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="KbeRestBrewery" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="ms-11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="guru.springframework.sfgrestbrewery.KbeRestBrewery" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Tutorial5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="Tutorial5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="Tutorial5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a756be04-cfd1-407b-8b49-7eb2ecbf5e96" name="Changes" comment="" />
+      <created>1764084394959</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764084394959</updated>
+      <workItem from="1764084396385" duration="5219000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

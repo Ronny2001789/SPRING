@@ -1,0 +1,44 @@
+services:
+  # SERVICE 1: The Database
+  postgresdb:
+    image: postgres:16
+    restart: unless-stopped
+    env_file: ./.env
+    environment:
+      - POSTGRES_USER=$POSTGRESDB_USER
+      - POSTGRES_PASSWORD=$POSTGRESDB_ROOT_PASSWORD
+      - POSTGRES_DB=$POSTGRESDB_DATABASE
+    ports:
+      - $POSTGRESDB_LOCAL_PORT:$POSTGRESDB_DOCKER_PORT
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $POSTGRESDB_USER -d $POSTGRESDB_DATABASE"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # SERVICE 2: The Spring Boot App
+  app:
+    depends_on:
+      postgresdb:
+        condition: service_healthy
+    image: bezkoder-app
+    build:
+      context: ./bezkoder-app
+    restart: on-failure
+    env_file: ./.env
+    ports:
+      - $SPRING_LOCAL_PORT:$SPRING_DOCKER_PORT
+    environment:
+      # Here we inject the database settings directly into Spring Boot.
+      # This OVERRIDES the empty application.properties file.
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgresdb:$POSTGRESDB_DOCKER_PORT/$POSTGRESDB_DATABASE
+      SPRING_DATASOURCE_USERNAME: $POSTGRESDB_USER
+      SPRING_DATASOURCE_PASSWORD: $POSTGRESDB_ROOT_PASSWORD
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT: org.hibernate.dialect.PostgreSQLDialect
+
+# Create a persistent volume so data isn't lost when you stop Docker
+volumes:
+  db_data:
